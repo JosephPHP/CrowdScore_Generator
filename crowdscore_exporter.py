@@ -121,7 +121,7 @@ def display_crowdscores(arguments: ArgumentParser):
     
     raw_scores = current_crowdscore_lookup["body"]["resources"]
 
-     display_data_table(raw_scores)
+    display_data_table(raw_scores)
 
     export_csv(raw_scores)
 
